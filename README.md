@@ -13,7 +13,7 @@ ESP8266 based floor heating controller using Homie and a I/O Extender to control
 
 I²C read address configured to 0x41 and write address to 0x40.
 
-DCDC converter from 12V down to 3.3V running ESP8266 and PCF8575. N channel MOSFET BC846 will be used to drive the relais coils.
+DCDC converter from 12V down to 3.3V running ESP8266 and PCF8575. N channel MOSFET BSS138 will be used to drive the relais coils.
 
 Every output will have its own indicator LED.
 
