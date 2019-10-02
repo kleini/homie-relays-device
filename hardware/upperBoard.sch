@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 19
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -273,8 +273,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 4700 5700 4700
 Wire Wire Line
-	5700 4700 5700 2200
-Wire Wire Line
 	5700 2200 4700 2200
 NoConn ~ 3000 3000
 NoConn ~ 2900 3000
@@ -291,29 +289,18 @@ NoConn ~ 1850 2400
 Connection ~ 5400 2100
 Connection ~ 5050 2000
 Wire Wire Line
-	6100 1400 6200 1400
-NoConn ~ 6200 2300
+	6200 2400 6000 2400
+Connection ~ 6000 2400
 Wire Wire Line
-	5700 1700 5700 1800
+	6000 2300 6000 2400
 Wire Wire Line
-	6200 1700 6000 1700
-Connection ~ 6000 1700
+	6200 2300 6000 2300
 Wire Wire Line
-	6000 1600 6000 1700
+	6000 2500 6000 2400
 Wire Wire Line
-	6200 1600 6000 1600
+	6200 2500 6000 2500
 Wire Wire Line
-	6000 1700 5700 1700
-Wire Wire Line
-	6000 1800 6000 1700
-Wire Wire Line
-	6200 1800 6000 1800
-Wire Wire Line
-	6100 1400 6100 1200
-Wire Wire Line
-	6100 2900 6100 3100
-Wire Wire Line
-	6200 2900 6100 2900
+	6100 2700 6100 2900
 Wire Wire Line
 	5400 2100 6200 2100
 Wire Wire Line
@@ -322,27 +309,11 @@ Wire Wire Line
 	3650 2000 5050 2000
 Wire Wire Line
 	3650 2100 5400 2100
-$Sheet
-S 8950 800  500  150 
-U 5D9F6DFE
-F0 "ledAndDriver1" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 8950 900 50 
-F3 "load" B R 9450 900 50 
-$EndSheet
-$Sheet
-S 7600 650  500  150 
-U 5D9F7D18
-F0 "ledAndDriver0" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 7600 750 50 
-F3 "load" B R 8100 750 50 
-$EndSheet
 Text HLabel 4450 6000 0    50   UnSpc ~ 0
 3.3V
 Text HLabel 5350 6000 2    50   UnSpc ~ 0
 GND
-Text HLabel 6100 3100 3    50   UnSpc ~ 0
+Text HLabel 7500 2850 3    50   UnSpc ~ 0
 GND
 Text HLabel 4700 2800 3    50   UnSpc ~ 0
 GND
@@ -354,7 +325,7 @@ Text HLabel 1300 2450 3    50   UnSpc ~ 0
 GND
 Text HLabel 4450 4350 3    50   UnSpc ~ 0
 GND
-Text HLabel 5700 1800 3    50   UnSpc ~ 0
+Text HLabel 5850 2700 3    50   UnSpc ~ 0
 GND
 Text GLabel 1350 3950 2    50   UnSpc ~ 0
 upper3.3V
@@ -384,120 +355,8 @@ Text HLabel 5050 1350 1    50   UnSpc ~ 0
 3.3V
 Text HLabel 5400 1350 1    50   UnSpc ~ 0
 3.3V
-Text HLabel 6100 1200 1    50   UnSpc ~ 0
+Text HLabel 6100 2900 3    50   UnSpc ~ 0
 3.3V
-$Sheet
-S 7600 1050 500  150 
-U 5DA4749D
-F0 "ledAndDriver2" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 7600 1150 50 
-F3 "load" B R 8100 1150 50 
-$EndSheet
-$Sheet
-S 8950 1200 500  150 
-U 5DA49210
-F0 "ledAndDriver3" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 8950 1300 50 
-F3 "load" B R 9450 1300 50 
-$EndSheet
-$Sheet
-S 7600 1450 500  150 
-U 5DA4947F
-F0 "ledAndDriver4" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 7600 1550 50 
-F3 "load" B R 8100 1550 50 
-$EndSheet
-$Sheet
-S 8950 1600 500  150 
-U 5DA496EE
-F0 "ledAndDriver5" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 8950 1700 50 
-F3 "load" B R 9450 1700 50 
-$EndSheet
-$Sheet
-S 7600 1850 500  150 
-U 5DA4995D
-F0 "ledAndDriver6" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 7600 1950 50 
-F3 "load" B R 8100 1950 50 
-$EndSheet
-$Sheet
-S 8950 2000 500  150 
-U 5DA49BCC
-F0 "ledAndDriver7" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 8950 2100 50 
-F3 "load" B R 9450 2100 50 
-$EndSheet
-$Sheet
-S 7600 2250 500  150 
-U 5DA49F6E
-F0 "ledAndDriver8" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 7600 2350 50 
-F3 "load" B R 8100 2350 50 
-$EndSheet
-$Sheet
-S 8950 2400 500  150 
-U 5DA4A1DF
-F0 "ledAndDriver9" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 8950 2500 50 
-F3 "load" B R 9450 2500 50 
-$EndSheet
-Wire Wire Line
-	7550 1900 7550 1700
-Wire Wire Line
-	7550 2200 7550 2350
-Wire Wire Line
-	7550 2350 7600 2350
-Wire Wire Line
-	7500 2300 7500 2500
-$Sheet
-S 7600 2650 500  150 
-U 5DAA1288
-F0 "ledAndDriver10" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 7600 2750 50 
-F3 "load" B R 8100 2750 50 
-$EndSheet
-$Sheet
-S 8950 2800 500  150 
-U 5DAA160B
-F0 "ledAndDriver11" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 8950 2900 50 
-F3 "load" B R 9450 2900 50 
-$EndSheet
-$Sheet
-S 7600 3050 500  150 
-U 5DAA31F1
-F0 "ledAndDriver12" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 7600 3150 50 
-F3 "load" B R 8100 3150 50 
-$EndSheet
-$Sheet
-S 8950 3200 500  150 
-U 5DAA3574
-F0 "ledAndDriver13" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 8950 3300 50 
-F3 "load" B R 9450 3300 50 
-$EndSheet
-$Sheet
-S 7600 3450 500  150 
-U 5DAA38F7
-F0 "ledAndDriver14" 50
-F1 "ledAndDriver.sch" 50
-F2 "in" I L 7600 3550 50 
-F3 "load" B R 8100 3550 50 
-$EndSheet
 $Sheet
 S 8950 3600 500  150 
 U 5DAA3C7A
@@ -506,86 +365,6 @@ F1 "ledAndDriver.sch" 50
 F2 "in" I L 8950 3700 50 
 F3 "load" B R 9450 3700 50 
 $EndSheet
-Wire Wire Line
-	7450 2400 7450 2750
-Wire Wire Line
-	7450 2750 7600 2750
-Wire Wire Line
-	7400 2500 7400 2900
-Wire Wire Line
-	7350 2600 7350 3150
-Wire Wire Line
-	7350 3150 7600 3150
-Wire Wire Line
-	7300 2700 7300 3300
-Wire Wire Line
-	7250 2800 7250 3550
-Wire Wire Line
-	7250 3550 7600 3550
-Wire Wire Line
-	7200 2900 7200 3700
-Wire Wire Line
-	7550 2000 7550 1950
-Wire Wire Line
-	7550 1950 7600 1950
-Wire Wire Line
-	7500 1800 7500 1550
-Wire Wire Line
-	7500 1550 7600 1550
-Wire Wire Line
-	7450 1700 7450 1300
-Wire Wire Line
-	7400 1150 7400 1600
-Wire Wire Line
-	7400 1150 7600 1150
-Wire Wire Line
-	7350 1500 7350 900 
-Wire Wire Line
-	7300 1400 7300 750 
-Wire Wire Line
-	7300 750  7600 750 
-Wire Wire Line
-	7200 1400 7300 1400
-Wire Wire Line
-	7200 1500 7350 1500
-Wire Wire Line
-	7200 1600 7400 1600
-Wire Wire Line
-	7200 1700 7450 1700
-Wire Wire Line
-	7200 1800 7500 1800
-Wire Wire Line
-	7200 1900 7550 1900
-Wire Wire Line
-	7200 2000 7550 2000
-Wire Wire Line
-	7200 2200 7550 2200
-Wire Wire Line
-	7200 2300 7500 2300
-Wire Wire Line
-	7200 2400 7450 2400
-Wire Wire Line
-	7200 2500 7400 2500
-Wire Wire Line
-	7200 2600 7350 2600
-Wire Wire Line
-	7200 2700 7300 2700
-Wire Wire Line
-	7200 2800 7250 2800
-$Comp
-L NXP:PCF8575 U2
-U 1 1 5D9C17A8
-P 6700 1400
-F 0 "U2" H 6700 1667 50  0000 C CNN
-F 1 "PCF8575" H 6700 1576 50  0000 C CNN
-F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 6700 -300 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/PCF8575.pdf" H 6700 -400 50  0001 C CNN
-F 4 "NXP" H 6700 -600 50  0001 C CNN "Manuf"
-F 5 "PCF8575TS/1,112" H 6700 -700 50  0001 C CNN "MPN"
-F 6 "NXP PCF8575TS/1,112" H 6700 -500 50  0001 C CNN "BOM"
-	1    6700 1400
-	1    0    0    -1  
-$EndComp
 Text HLabel 4450 5900 0    50   UnSpc ~ 0
 15
 Text HLabel 4450 5800 0    50   UnSpc ~ 0
@@ -659,84 +438,8 @@ Wire Wire Line
 	5350 5800 5150 5800
 Wire Wire Line
 	5350 5900 5150 5900
-Text HLabel 8450 750  2    50   UnSpc ~ 0
-01
-Text HLabel 9800 900  2    50   UnSpc ~ 0
-02
-Text HLabel 9800 1300 2    50   UnSpc ~ 0
-04
-Text HLabel 9800 1700 2    50   UnSpc ~ 0
-06
-Text HLabel 9800 2100 2    50   UnSpc ~ 0
-08
-Text HLabel 9800 2500 2    50   UnSpc ~ 0
-10
-Text HLabel 9800 2900 2    50   UnSpc ~ 0
-12
-Text HLabel 9800 3300 2    50   UnSpc ~ 0
-14
 Text HLabel 9800 3700 2    50   UnSpc ~ 0
 16
-Wire Wire Line
-	7350 900  8950 900 
-Wire Wire Line
-	7450 1300 8950 1300
-Wire Wire Line
-	7550 1700 8950 1700
-Wire Wire Line
-	7200 2100 8950 2100
-Wire Wire Line
-	7500 2500 8950 2500
-Wire Wire Line
-	7400 2900 8950 2900
-Wire Wire Line
-	7300 3300 8950 3300
-Wire Wire Line
-	7200 3700 8950 3700
-Wire Wire Line
-	8100 750  8450 750 
-Text HLabel 8450 1150 2    50   UnSpc ~ 0
-03
-Wire Wire Line
-	8450 1150 8100 1150
-Text HLabel 8450 1550 2    50   UnSpc ~ 0
-05
-Wire Wire Line
-	8450 1550 8100 1550
-Text HLabel 8450 1950 2    50   UnSpc ~ 0
-07
-Wire Wire Line
-	8450 1950 8100 1950
-Text HLabel 8450 2350 2    50   UnSpc ~ 0
-09
-Wire Wire Line
-	8450 2350 8100 2350
-Text HLabel 8450 2750 2    50   UnSpc ~ 0
-11
-Wire Wire Line
-	8450 2750 8100 2750
-Text HLabel 8450 3150 2    50   UnSpc ~ 0
-13
-Wire Wire Line
-	8450 3150 8100 3150
-Text HLabel 8450 3550 2    50   UnSpc ~ 0
-15
-Wire Wire Line
-	8450 3550 8100 3550
-Wire Wire Line
-	9800 1300 9450 1300
-Wire Wire Line
-	9450 900  9800 900 
-Wire Wire Line
-	9800 1700 9450 1700
-Wire Wire Line
-	9800 2100 9450 2100
-Wire Wire Line
-	9800 2500 9450 2500
-Wire Wire Line
-	9800 2900 9450 2900
-Wire Wire Line
-	9800 3300 9450 3300
 Wire Wire Line
 	9800 3700 9450 3700
 Wire Wire Line
@@ -749,4 +452,103 @@ Wire Wire Line
 	3800 2500 3650 2500
 Wire Wire Line
 	5150 6000 5350 6000
+$Comp
+L microchip-dspic:MCP23016SO IC?
+U 1 1 5D9605B8
+P 6700 1900
+F 0 "IC?" H 6700 2965 50  0000 C CNN
+F 1 "MCP23016SO" H 6700 2874 50  0000 C CNN
+F 2 "microchip-dspic-SO-28W" H 6700 2050 50  0001 C CNN
+F 3 "" H 6700 1900 50  0001 C CNN
+	1    6700 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2200 5700 4700
+Wire Wire Line
+	6000 2400 5850 2400
+Wire Wire Line
+	5850 2400 5850 2700
+Wire Wire Line
+	6100 2700 6200 2700
+Wire Wire Line
+	7200 2500 7350 2500
+Wire Wire Line
+	7350 2500 7350 2600
+Wire Wire Line
+	7350 2700 7200 2700
+Wire Wire Line
+	7200 2600 7350 2600
+Connection ~ 7350 2600
+Wire Wire Line
+	7350 2600 7350 2700
+Wire Wire Line
+	7350 2600 7500 2600
+Wire Wire Line
+	7500 2600 7500 2800
+NoConn ~ 7200 2100
+$Comp
+L Device:R R?
+U 1 1 5D98F4C5
+P 7650 2200
+F 0 "R?" H 7720 2246 50  0000 L CNN
+F 1 "R" H 7720 2155 50  0000 L CNN
+F 2 "" V 7580 2200 50  0001 C CNN
+F 3 "~" H 7650 2200 50  0001 C CNN
+	1    7650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D9901E9
+P 7650 2650
+F 0 "C?" H 7765 2696 50  0000 L CNN
+F 1 "C" H 7765 2605 50  0000 L CNN
+F 2 "" H 7688 2500 50  0001 C CNN
+F 3 "~" H 7650 2650 50  0001 C CNN
+	1    7650 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2350 7650 2400
+Wire Wire Line
+	7650 2800 7500 2800
+Connection ~ 7500 2800
+Wire Wire Line
+	7500 2800 7500 2850
+Text HLabel 7650 1950 2    50   UnSpc ~ 0
+3.3V
+Wire Wire Line
+	7650 1950 7650 2050
+Wire Wire Line
+	7650 2400 7450 2400
+Wire Wire Line
+	7450 2400 7450 2000
+Wire Wire Line
+	7450 2000 7200 2000
+Connection ~ 7650 2400
+Wire Wire Line
+	7650 2400 7650 2500
+$Comp
+L LED:HDSP-4830_2 BAR?
+U 1 1 5D99BD45
+P 8650 2150
+F 0 "BAR?" V 8604 2680 50  0000 L CNN
+F 1 "HDSP-4830_2" V 8695 2680 50  0000 L CNN
+F 2 "Display:HDSP-4830" H 8650 1350 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 6650 2350 50  0001 C CNN
+	1    8650 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network08 RN?
+U 1 1 5D99E6B0
+P 8450 2650
+F 0 "RN?" H 7970 2604 50  0000 R CNN
+F 1 "R_Network08" H 7970 2695 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 8925 2650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8450 2650 50  0001 C CNN
+	1    8450 2650
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
