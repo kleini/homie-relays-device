@@ -280,7 +280,6 @@ NoConn ~ 2800 3000
 NoConn ~ 2700 3000
 NoConn ~ 2600 3000
 NoConn ~ 2500 3000
-NoConn ~ 3650 2300
 NoConn ~ 1850 1900
 NoConn ~ 1850 2100
 NoConn ~ 1850 2200
@@ -551,4 +550,23 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8450 2650 50  0001 C CNN
 	1    8450 2650
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5D9733D1
+P 3850 1550
+F 0 "R?" H 3920 1596 50  0000 L CNN
+F 1 "10K" H 3920 1505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 3780 1550 50  0001 C CNN
+F 3 "~" H 3850 1550 50  0001 C CNN
+	1    3850 1550
+	1    0    0    -1  
+$EndComp
+Text HLabel 3850 1250 1    50   UnSpc ~ 0
+3.3V
+Wire Wire Line
+	3850 1250 3850 1400
+Wire Wire Line
+	3850 1700 3850 2300
+Wire Wire Line
+	3850 2300 3650 2300
 $EndSCHEMATC
