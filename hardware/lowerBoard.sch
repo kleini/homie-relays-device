@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:heating-control-cache
+LIBS:relays-device-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -33,7 +33,7 @@ U 1 1 5DA00118
 P 3500 1800
 AR Path="/5DA00118" Ref="D1"  Part="1" 
 AR Path="/5D9FF064/5DA00118" Ref="D3"  Part="1" 
-F 0 "D1" V 3454 1879 50  0000 L CNN
+F 0 "D3" V 3454 1879 50  0000 L CNN
 F 1 "1N4148" V 3545 1879 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3500 1625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3500 1800 50  0001 C CNN
@@ -46,7 +46,7 @@ U 1 1 5DA0011E
 P 3950 1300
 AR Path="/5DA0011E" Ref="#PWR0102"  Part="1" 
 AR Path="/5D9FF064/5DA0011E" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0102" H 3950 1150 50  0001 C CNN
+F 0 "#PWR0112" H 3950 1150 50  0001 C CNN
 F 1 "+12V" H 3965 1473 50  0000 C CNN
 F 2 "" H 3950 1300 50  0001 C CNN
 F 3 "" H 3950 1300 50  0001 C CNN
@@ -77,10 +77,10 @@ Text HLabel 8600 1450 2    50   UnSpc ~ 0
 Text HLabel 8600 1700 2    50   UnSpc ~ 0
 GND
 $Comp
-L Regulator_Switching:R-78B3.3-2.0 U3
+L Regulator_Switching:R-78B3.3-2.0 U5
 U 1 1 5DBF2EA9
 P 6950 1450
-F 0 "U3" H 6950 1692 50  0000 C CNN
+F 0 "U5" H 6950 1692 50  0000 C CNN
 F 1 "R-78B3.3-2.0" H 6950 1601 50  0000 C CNN
 F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT" H 7000 1200 50  0001 L CIN
 F 3 "https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf" H 6950 1450 50  0001 C CNN

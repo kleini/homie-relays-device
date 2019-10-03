@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:heating-control-cache
+LIBS:relays-device-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1450 1450 1250 1900
+S 1450 1450 1250 2000
 U 5D9B8E7D
 F0 "upperBoard" 50
 F1 "upperBoard.sch" 50
@@ -37,6 +37,7 @@ F16 "08" U R 2700 2450 50
 F17 "06" U R 2700 2250 50 
 F18 "04" U R 2700 2050 50 
 F19 "02" U R 2700 1850 50 
+F20 "12V" I R 2700 3350 50 
 $EndSheet
 $Sheet
 S 3750 1450 1250 1900
