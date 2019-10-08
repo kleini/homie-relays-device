@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -273,9 +273,9 @@ Wire Wire Line
 	3300 2500 4200 2500
 Wire Wire Line
 	3300 2600 4450 2600
-Text HLabel 5650 7550 0    50   UnSpc ~ 0
+Text HLabel 850  5500 0    50   UnSpc ~ 0
 3.3V
-Text HLabel 6550 7550 2    50   UnSpc ~ 0
+Text HLabel 1750 5500 2    50   UnSpc ~ 0
 GND
 Text HLabel 6700 3350 3    50   UnSpc ~ 0
 GND
@@ -309,76 +309,76 @@ Text HLabel 4450 1750 1    50   UnSpc ~ 0
 3.3V
 Text HLabel 5300 3400 3    50   UnSpc ~ 0
 3.3V
-Text HLabel 5650 7450 0    50   UnSpc ~ 0
+Text HLabel 850  5400 0    50   UnSpc ~ 0
 15
-Text HLabel 5650 7350 0    50   UnSpc ~ 0
+Text HLabel 850  5300 0    50   UnSpc ~ 0
 13
-Text HLabel 5650 7250 0    50   UnSpc ~ 0
+Text HLabel 850  5200 0    50   UnSpc ~ 0
 11
-Text HLabel 5650 7150 0    50   UnSpc ~ 0
+Text HLabel 850  5100 0    50   UnSpc ~ 0
 09
-Text HLabel 5650 7050 0    50   UnSpc ~ 0
+Text HLabel 850  5000 0    50   UnSpc ~ 0
 07
-Text HLabel 5650 6950 0    50   UnSpc ~ 0
+Text HLabel 850  4900 0    50   UnSpc ~ 0
 05
-Text HLabel 5650 6850 0    50   UnSpc ~ 0
+Text HLabel 850  4800 0    50   UnSpc ~ 0
 03
-Text HLabel 5650 6750 0    50   UnSpc ~ 0
+Text HLabel 850  4700 0    50   UnSpc ~ 0
 01
-Text HLabel 6550 7450 2    50   UnSpc ~ 0
+Text HLabel 1750 5400 2    50   UnSpc ~ 0
 16
-Text HLabel 6550 7350 2    50   UnSpc ~ 0
+Text HLabel 1750 5300 2    50   UnSpc ~ 0
 14
-Text HLabel 6550 7250 2    50   UnSpc ~ 0
+Text HLabel 1750 5200 2    50   UnSpc ~ 0
 12
-Text HLabel 6550 7150 2    50   UnSpc ~ 0
+Text HLabel 1750 5100 2    50   UnSpc ~ 0
 10
-Text HLabel 6550 7050 2    50   UnSpc ~ 0
+Text HLabel 1750 5000 2    50   UnSpc ~ 0
 08
-Text HLabel 6550 6950 2    50   UnSpc ~ 0
+Text HLabel 1750 4900 2    50   UnSpc ~ 0
 06
-Text HLabel 6550 6850 2    50   UnSpc ~ 0
+Text HLabel 1750 4800 2    50   UnSpc ~ 0
 04
-Text HLabel 6550 6750 2    50   UnSpc ~ 0
+Text HLabel 1750 4700 2    50   UnSpc ~ 0
 02
 Wire Wire Line
-	5650 6750 5850 6750
+	850  4700 1050 4700
 Wire Wire Line
-	5850 6850 5650 6850
+	1050 4800 850  4800
 Wire Wire Line
-	5650 6950 5850 6950
+	850  4900 1050 4900
 Wire Wire Line
-	5850 7050 5650 7050
+	1050 5000 850  5000
 Wire Wire Line
-	5650 7150 5850 7150
+	850  5100 1050 5100
 Wire Wire Line
-	5850 7250 5650 7250
+	1050 5200 850  5200
 Wire Wire Line
-	5850 7550 5650 7550
+	1050 5500 850  5500
 Wire Wire Line
-	6350 6750 6550 6750
+	1550 4700 1750 4700
 Wire Wire Line
-	6350 6850 6550 6850
+	1550 4800 1750 4800
 Wire Wire Line
-	6550 6950 6350 6950
+	1750 4900 1550 4900
 Wire Wire Line
-	6550 7050 6350 7050
+	1750 5000 1550 5000
 Wire Wire Line
-	6550 7150 6350 7150
+	1750 5100 1550 5100
 Wire Wire Line
-	6550 7250 6350 7250
+	1750 5200 1550 5200
 Wire Wire Line
-	6550 7350 6350 7350
+	1750 5300 1550 5300
 Wire Wire Line
-	6550 7450 6350 7450
+	1750 5400 1550 5400
 Text HLabel 8450 4950 2    50   UnSpc ~ 0
 16
 Wire Wire Line
-	5850 7350 5650 7350
+	1050 5300 850  5300
 Wire Wire Line
-	5850 7450 5650 7450
+	1050 5400 850  5400
 Wire Wire Line
-	6350 7550 6550 7550
+	1550 5500 1750 5500
 $Comp
 L microchip-dspic:MCP23016SO IC1
 U 1 1 5D9605B8
@@ -827,22 +827,22 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J2
 U 1 1 5DAC3666
-P 6050 7150
-F 0 "J2" H 6100 7767 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 6100 7676 50  0000 C CNN
-F 2 "" H 6050 7150 50  0001 C CNN
-F 3 "~" H 6050 7150 50  0001 C CNN
-	1    6050 7150
+P 1250 5100
+F 0 "J2" H 1300 5717 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 1300 5626 50  0000 C CNN
+F 2 "" H 1250 5100 50  0001 C CNN
+F 3 "~" H 1250 5100 50  0001 C CNN
+	1    1250 5100
 	1    0    0    -1  
 $EndComp
-Text HLabel 6550 7650 2    50   UnSpc ~ 0
+Text HLabel 1750 5600 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	6550 7650 6350 7650
-Text HLabel 5650 7650 0    50   UnSpc ~ 0
+	1750 5600 1550 5600
+Text HLabel 850  5600 0    50   UnSpc ~ 0
 12V
 Wire Wire Line
-	5850 7650 5650 7650
+	1050 5600 850  5600
 Text HLabel 7750 3900 0    50   UnSpc ~ 0
 12V
 Wire Wire Line
@@ -865,6 +865,14 @@ NoConn ~ 7250 2850
 NoConn ~ 7250 2450
 NoConn ~ 7150 2450
 NoConn ~ 7150 2850
+Text HLabel 9050 1600 2    50   UnSpc ~ 0
+01
+Text HLabel 9050 1700 2    50   UnSpc ~ 0
+02
+Wire Wire Line
+	8950 1600 9050 1600
+Wire Wire Line
+	8950 1700 9050 1700
 Wire Bus Line
 	6050 3750 6050 4850
 Wire Bus Line
