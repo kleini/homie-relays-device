@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 19
 Title ""
 Date ""
 Rev ""
@@ -873,6 +873,59 @@ Wire Wire Line
 	8950 1600 9050 1600
 Wire Wire Line
 	8950 1700 9050 1700
+Text HLabel 9050 1800 2    50   UnSpc ~ 0
+03
+Text HLabel 9050 1900 2    50   UnSpc ~ 0
+04
+Text HLabel 9050 2000 2    50   UnSpc ~ 0
+05
+Text HLabel 9050 2100 2    50   UnSpc ~ 0
+06
+Text HLabel 9050 2200 2    50   UnSpc ~ 0
+07
+Text HLabel 9050 2300 2    50   UnSpc ~ 0
+08
+Wire Wire Line
+	8950 1800 9050 1800
+Wire Wire Line
+	8950 1900 9050 1900
+Wire Wire Line
+	8950 2000 9050 2000
+Wire Wire Line
+	8950 2100 9050 2100
+Wire Wire Line
+	8950 2200 9050 2200
+Wire Wire Line
+	8950 2300 9050 2300
+Text HLabel 8450 4250 2    50   UnSpc ~ 0
+09
+Text HLabel 8450 4850 2    50   UnSpc ~ 0
+15
+Text HLabel 8450 4750 2    50   UnSpc ~ 0
+14
+Text HLabel 8450 4650 2    50   UnSpc ~ 0
+13
+Text HLabel 8450 4550 2    50   UnSpc ~ 0
+12
+Text HLabel 8450 4450 2    50   UnSpc ~ 0
+11
+Text HLabel 8450 4350 2    50   UnSpc ~ 0
+10
+Wire Wire Line
+	8300 4250 8450 4250
+Wire Wire Line
+	8300 4350 8450 4350
+Wire Wire Line
+	8300 4450 8450 4450
+Wire Wire Line
+	8300 4550 8450 4550
+Wire Wire Line
+	8300 4650 8450 4650
+Wire Wire Line
+	8300 4750 8450 4750
+Wire Wire Line
+	8300 4850 8450 4850
+NoConn ~ 6400 2800
 Wire Bus Line
 	6050 3750 6050 4850
 Wire Bus Line
