@@ -1,5 +1,5 @@
-#define FW_NAME "homie-heating-control"
-#define FW_VERSION "0.0.2"
+#define FW_NAME "relays-device"
+#define FW_VERSION "0.0.5"
 
 #include "Homie.h"
 
