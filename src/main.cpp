@@ -1,5 +1,5 @@
 #define FW_NAME "relays-device"
-#define FW_VERSION "0.0.5"
+#define FW_VERSION "0.0.7"
 
 #include "Homie.h"
 
