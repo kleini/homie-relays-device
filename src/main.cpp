@@ -3,12 +3,20 @@
 
 #include "Homie.h"
 
+#include "AdcNode.hpp"
+
+ADC_MODE(ADC_VCC); // Set ADC to measure internal VCC
+
 // internal LED of ESP8266-12E/F is connected to GPIO2
 const int PIN_LED = 2;
+
+AdcNode adcNode("adc", "Internal", 30 * 1000);
 
 void setup() {
   Serial.begin(115200);
   Serial << endl << endl;
+
+  adcNode.beforeHomieSetup();
 
   pinMode(PIN_LED, OUTPUT);
 
