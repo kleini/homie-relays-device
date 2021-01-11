@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:relays-device-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 19
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -88,7 +87,7 @@ L Device:R R5
 U 1 1 5D9C180D
 P 3450 3050
 F 0 "R5" H 3520 3096 50  0000 L CNN
-F 1 "10K" H 3520 3005 50  0000 L CNN
+F 1 "4.7K" H 3520 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 3380 3050 50  0001 C CNN
 F 3 "~" H 3450 3050 50  0001 C CNN
 	1    3450 3050
@@ -140,33 +139,11 @@ Wire Wire Line
 Wire Wire Line
 	4100 4650 4100 4850
 $Comp
-L Transistor_BJT:S8050 Q1
-U 1 1 5D9C1859
-P 2400 4250
-F 0 "Q1" H 2591 4296 50  0000 L CNN
-F 1 "S8050" H 2591 4205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2600 4175 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 2400 4250 50  0001 L CNN
-	1    2400 4250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:S8050 Q2
-U 1 1 5D9C185F
-P 2400 4900
-F 0 "Q2" H 2591 4854 50  0000 L CNN
-F 1 "S8050" H 2591 4945 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2600 4825 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 2400 4900 50  0001 L CNN
-	1    2400 4900
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R R3
 U 1 1 5D9C1865
 P 2850 4250
 F 0 "R3" V 2643 4250 50  0000 C CNN
-F 1 "12K" V 2734 4250 50  0000 C CNN
+F 1 "10K" V 2734 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 2780 4250 50  0001 C CNN
 F 3 "~" H 2850 4250 50  0001 C CNN
 	1    2850 4250
@@ -177,7 +154,7 @@ L Device:R R4
 U 1 1 5D9C186B
 P 2850 4900
 F 0 "R4" V 2643 4900 50  0000 C CNN
-F 1 "12K" V 2734 4900 50  0000 C CNN
+F 1 "10K" V 2734 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 2780 4900 50  0001 C CNN
 F 3 "~" H 2850 4900 50  0001 C CNN
 	1    2850 4900
@@ -470,7 +447,7 @@ L Device:R_Network08 RN2
 U 1 1 5D99E6B0
 P 7650 3150
 F 0 "RN2" H 7170 3104 50  0000 R CNN
-F 1 "R_Network08" H 7170 3195 50  0000 R CNN
+F 1 "150" H 7170 3195 50  0000 R CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 8125 3150 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7650 3150 50  0001 C CNN
 	1    7650 3150
@@ -926,8 +903,41 @@ Wire Wire Line
 Wire Wire Line
 	8300 4850 8450 4850
 NoConn ~ 6400 2800
+$Comp
+L Transistor_BJT:MMBT3904 Q?
+U 1 1 5FE4541A
+P 2400 4900
+F 0 "Q?" H 2591 4854 50  0000 L CNN
+F 1 "MMBT3904" H 2591 4945 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 4825 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2400 4900 50  0001 L CNN
+	1    2400 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:MMBT3904 Q?
+U 1 1 5FE53400
+P 2400 4250
+F 0 "Q?" H 2591 4296 50  0000 L CNN
+F 1 "MMBT3904" H 2591 4205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2600 4175 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2400 4250 50  0001 L CNN
+	1    2400 4250
+	-1   0    0    -1  
+$EndComp
 Wire Bus Line
 	6050 3750 6050 4850
 Wire Bus Line
 	5200 900  5200 2200
+$Comp
+L Interface_Expansion:MCP23017_SO U?
+U 1 1 5FF85679
+P 10550 2250
+F 0 "U?" H 10550 3531 50  0000 C CNN
+F 1 "MCP23017_SO" H 10550 3440 50  0000 C CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 10750 1250 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 10750 1150 50  0001 L CNN
+	1    10550 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
