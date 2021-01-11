@@ -28,6 +28,12 @@ void setup() {
   Homie.setup();
 }
 
+unsigned long _lastHeapTime;
+
 void loop() {
+  if (millis() - _lastHeapTime > 30000) {
+    Homie.getLogger() << F("Heap: ") << ESP.getFreeHeap() << endl;
+    _lastHeapTime = millis();
+  }
   Homie.loop();
 }
