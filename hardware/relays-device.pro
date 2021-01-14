@@ -1,6 +1,6 @@
-update=Fr 27 Sep 2019 18:49:45 CEST
+update=Do 14 Jan 2021 22:06:36 CET
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=/home/marcus/source/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
