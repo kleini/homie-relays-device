@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 19
+Sheet 3 19
 Title ""
 Date ""
 Rev ""
@@ -62,10 +62,10 @@ F 3 "http://www.hlktech.net/product_detail.php?ProId=56" H 6100 850 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Switching:R-783.3-0.5 U3
+L Regulator_Switching:R-783.3-0.5 U5
 U 1 1 5D9DC2C0
 P 6950 1450
-F 0 "U3" H 6950 1692 50  0000 C CNN
+F 0 "U5" H 6950 1692 50  0000 C CNN
 F 1 "R-783.3-0.5" H 6950 1601 50  0000 C CNN
 F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT" H 7000 1200 50  0001 L CIN
 F 3 "https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf" H 6950 1450 50  0001 C CNN
@@ -776,10 +776,10 @@ Connection ~ 3250 2850
 Wire Wire Line
 	3250 2850 3250 3300
 $Comp
-L Connector:Screw_Terminal_01x02 J1
+L Connector:Screw_Terminal_01x02 J8
 U 1 1 5DC094BA
 P 3800 800
-F 0 "J1" H 3880 792 50  0000 L CNN
+F 0 "J8" H 3880 792 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 3880 701 50  0000 L CNN
 F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06302HBWC_1x02_P3.50mm_Horizontal" H 3800 800 50  0001 C CNN
 F 3 "~" H 3800 800 50  0001 C CNN
@@ -806,10 +806,10 @@ Connection ~ 3250 1950
 Wire Wire Line
 	3250 1950 3250 2450
 $Comp
-L Connector:Screw_Terminal_01x04 J2
+L Connector:Screw_Terminal_01x04 J10
 U 1 1 5DC67C79
 P 3800 1150
-F 0 "J2" H 3880 1142 50  0000 L CNN
+F 0 "J10" H 3880 1142 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 3880 1051 50  0000 L CNN
 F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06304HBWC_1x04_P3.50mm_Horizontal" H 3800 1150 50  0001 C CNN
 F 3 "~" H 3800 1150 50  0001 C CNN
