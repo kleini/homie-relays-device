@@ -235,9 +235,9 @@ Wire Wire Line
 	3300 2500 4200 2500
 Wire Wire Line
 	3300 2600 4450 2600
-Text HLabel 850  5500 0    50   UnSpc ~ 0
+Text HLabel 5400 6300 0    50   UnSpc ~ 0
 3.3V
-Text HLabel 1750 5500 2    50   UnSpc ~ 0
+Text HLabel 6300 6300 2    50   UnSpc ~ 0
 GND
 Text HLabel 3950 3300 3    50   UnSpc ~ 0
 GND
@@ -265,92 +265,92 @@ Text HLabel 4200 1750 1    50   UnSpc ~ 0
 3.3V
 Text HLabel 4450 1750 1    50   UnSpc ~ 0
 3.3V
-Text HLabel 850  5400 0    50   UnSpc ~ 0
+Text HLabel 5400 6200 0    50   UnSpc ~ 0
 15
-Text HLabel 850  5300 0    50   UnSpc ~ 0
+Text HLabel 5400 6100 0    50   UnSpc ~ 0
 13
-Text HLabel 850  5200 0    50   UnSpc ~ 0
+Text HLabel 5400 6000 0    50   UnSpc ~ 0
 11
-Text HLabel 850  5100 0    50   UnSpc ~ 0
+Text HLabel 5400 5900 0    50   UnSpc ~ 0
 09
-Text HLabel 850  5000 0    50   UnSpc ~ 0
+Text HLabel 5400 5800 0    50   UnSpc ~ 0
 07
-Text HLabel 850  4900 0    50   UnSpc ~ 0
+Text HLabel 5400 5700 0    50   UnSpc ~ 0
 05
-Text HLabel 850  4800 0    50   UnSpc ~ 0
+Text HLabel 5400 5600 0    50   UnSpc ~ 0
 03
-Text HLabel 850  4700 0    50   UnSpc ~ 0
+Text HLabel 5400 5500 0    50   UnSpc ~ 0
 01
-Text HLabel 1750 5400 2    50   UnSpc ~ 0
+Text HLabel 6300 6200 2    50   UnSpc ~ 0
 16
-Text HLabel 1750 5300 2    50   UnSpc ~ 0
+Text HLabel 6300 6100 2    50   UnSpc ~ 0
 14
-Text HLabel 1750 5200 2    50   UnSpc ~ 0
+Text HLabel 6300 6000 2    50   UnSpc ~ 0
 12
-Text HLabel 1750 5100 2    50   UnSpc ~ 0
+Text HLabel 6300 5900 2    50   UnSpc ~ 0
 10
-Text HLabel 1750 5000 2    50   UnSpc ~ 0
+Text HLabel 6300 5800 2    50   UnSpc ~ 0
 08
-Text HLabel 1750 4900 2    50   UnSpc ~ 0
+Text HLabel 6300 5700 2    50   UnSpc ~ 0
 06
-Text HLabel 1750 4800 2    50   UnSpc ~ 0
+Text HLabel 6300 5600 2    50   UnSpc ~ 0
 04
-Text HLabel 1750 4700 2    50   UnSpc ~ 0
+Text HLabel 6300 5500 2    50   UnSpc ~ 0
 02
 Wire Wire Line
-	850  4700 1050 4700
+	5400 5500 5600 5500
 Wire Wire Line
-	1050 4800 850  4800
+	5600 5600 5400 5600
 Wire Wire Line
-	850  4900 1050 4900
+	5400 5700 5600 5700
 Wire Wire Line
-	1050 5000 850  5000
+	5600 5800 5400 5800
 Wire Wire Line
-	850  5100 1050 5100
+	5400 5900 5600 5900
 Wire Wire Line
-	1050 5200 850  5200
+	5600 6000 5400 6000
 Wire Wire Line
-	1050 5500 850  5500
+	5600 6300 5400 6300
 Wire Wire Line
-	1550 4700 1750 4700
+	6100 5500 6300 5500
 Wire Wire Line
-	1550 4800 1750 4800
+	6100 5600 6300 5600
 Wire Wire Line
-	1750 4900 1550 4900
+	6300 5700 6100 5700
 Wire Wire Line
-	1750 5000 1550 5000
+	6300 5800 6100 5800
 Wire Wire Line
-	1750 5100 1550 5100
+	6300 5900 6100 5900
 Wire Wire Line
-	1750 5200 1550 5200
+	6300 6000 6100 6000
 Wire Wire Line
-	1750 5300 1550 5300
+	6300 6100 6100 6100
 Wire Wire Line
-	1750 5400 1550 5400
+	6300 6200 6100 6200
 Text HLabel 9600 1900 2    50   UnSpc ~ 0
 16
 Wire Wire Line
-	1050 5300 850  5300
+	5600 6100 5400 6100
 Wire Wire Line
-	1050 5400 850  5400
+	5600 6200 5400 6200
 Wire Wire Line
-	1550 5500 1750 5500
+	6100 6300 6300 6300
 $Comp
-L LED:HDSP-4830_2 BAR2
+L LED:HDSP-4830_2 BAR1
 U 1 1 5D99BD45
 P 8150 4700
-F 0 "BAR2" V 8104 5230 50  0000 L CNN
+F 0 "BAR1" V 8104 5230 50  0000 L CNN
 F 1 "HDSP-4830_2" V 8195 5230 50  0000 L CNN
-F 2 "Display:HDSP-4830" H 8150 3900 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_LongPads" H 8150 3900 50  0001 C CNN
 F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 6150 4900 50  0001 C CNN
 	1    8150 4700
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Network08 RN2
+L Device:R_Network08 RN1
 U 1 1 5D99E6B0
 P 8150 5200
-F 0 "RN2" H 7670 5154 50  0000 R CNN
+F 0 "RN1" H 7670 5154 50  0000 R CNN
 F 1 "150" H 7670 5245 50  0000 R CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 8625 5200 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8150 5200 50  0001 C CNN
@@ -385,10 +385,10 @@ Connection ~ 8550 3650
 Wire Wire Line
 	8650 3750 8450 3750
 $Comp
-L Transistor_Array:A2982 U4
+L Transistor_Array:A2982 U2
 U 1 1 5D997ACC
 P 9050 3950
-F 0 "U4" H 9050 4631 50  0000 C CNN
+F 0 "U2" H 9050 4631 50  0000 C CNN
 F 1 "A2982" H 9050 4540 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 9050 3400 50  0001 C CNN
 F 3 "https://www.allegromicro.com/~/media/Files/Datasheets/A2981-2-Datasheet.ashx" H 8750 4350 50  0001 C CNN
@@ -396,10 +396,10 @@ F 3 "https://www.allegromicro.com/~/media/Files/Datasheets/A2981-2-Datasheet.ash
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_Array:A2982 U2
+L Transistor_Array:A2982 U4
 U 1 1 5D9A699E
 P 9050 1500
-F 0 "U2" H 9050 719 50  0000 C CNN
+F 0 "U4" H 9050 719 50  0000 C CNN
 F 1 "A2982" H 9050 810 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 9050 950 50  0001 C CNN
 F 3 "https://www.allegromicro.com/~/media/Files/Datasheets/A2981-2-Datasheet.ashx" H 8750 1900 50  0001 C CNN
@@ -407,21 +407,21 @@ F 3 "https://www.allegromicro.com/~/media/Files/Datasheets/A2981-2-Datasheet.ash
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:HDSP-4830_2 BAR1
+L LED:HDSP-4830_2 BAR2
 U 1 1 5D9A7C3A
 P 8100 2200
-F 0 "BAR1" V 8054 2730 50  0000 L CNN
+F 0 "BAR2" V 8054 2730 50  0000 L CNN
 F 1 "HDSP-4830_2" V 8145 2730 50  0000 L CNN
-F 2 "Display:HDSP-4830" H 8100 1400 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 8100 1400 50  0001 C CNN
 F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 6100 2400 50  0001 C CNN
 	1    8100 2200
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Network08 RN1
+L Device:R_Network08 RN2
 U 1 1 5D9A9ED4
 P 8100 2700
-F 0 "RN1" H 7620 2654 50  0000 R CNN
+F 0 "RN2" H 7620 2654 50  0000 R CNN
 F 1 "R_Network08" H 7620 2745 50  0000 R CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 8575 2700 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8100 2700 50  0001 C CNN
@@ -566,22 +566,22 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J2
 U 1 1 5DAC3666
-P 1250 5100
-F 0 "J2" H 1300 5717 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 1300 5626 50  0000 C CNN
-F 2 "" H 1250 5100 50  0001 C CNN
-F 3 "~" H 1250 5100 50  0001 C CNN
-	1    1250 5100
+P 5800 5900
+F 0 "J2" H 5850 6517 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 5850 6426 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 5800 5900 50  0001 C CNN
+F 3 "~" H 5800 5900 50  0001 C CNN
+	1    5800 5900
 	1    0    0    -1  
 $EndComp
-Text HLabel 1750 5600 2    50   UnSpc ~ 0
+Text HLabel 6300 6400 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	1750 5600 1550 5600
-Text HLabel 850  5600 0    50   UnSpc ~ 0
+	6300 6400 6100 6400
+Text HLabel 5400 6400 0    50   UnSpc ~ 0
 12V
 Wire Wire Line
-	1050 5600 850  5600
+	5600 6400 5400 6400
 Text HLabel 9050 850  2    50   UnSpc ~ 0
 12V
 Text HLabel 9050 3300 2    50   UnSpc ~ 0
