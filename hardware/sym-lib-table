@@ -2,4 +2,5 @@
   (lib (name NXP)(type Legacy)(uri ${LOCAL_KICAD}/kicad-schlib/library/NXP.lib)(options "")(descr ""))
   (lib (name ESP8266)(type Legacy)(uri ${LOCAL_KICAD}/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
   (lib (name microchip-dspic)(type Legacy)(uri ${LOCAL_KICAD}/microchip-dspic.lib)(options "")(descr ""))
+  (lib (name Finder_43.41)(type Legacy)(uri ${LOCAL_KICAD}/finder-43.41.7.012.2300/finder-43.41.lib)(options "")(descr ""))
 )

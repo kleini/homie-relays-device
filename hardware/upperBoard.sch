@@ -235,9 +235,9 @@ Wire Wire Line
 	3300 2500 4200 2500
 Wire Wire Line
 	3300 2600 4450 2600
-Text HLabel 5400 6300 0    50   UnSpc ~ 0
+Text HLabel 5450 5650 1    50   UnSpc ~ 0
 3.3V
-Text HLabel 6300 6300 2    50   UnSpc ~ 0
+Text HLabel 5450 6550 3    50   UnSpc ~ 0
 GND
 Text HLabel 3950 3300 3    50   UnSpc ~ 0
 GND
@@ -265,76 +265,76 @@ Text HLabel 4200 1750 1    50   UnSpc ~ 0
 3.3V
 Text HLabel 4450 1750 1    50   UnSpc ~ 0
 3.3V
-Text HLabel 5400 6200 0    50   UnSpc ~ 0
+Text HLabel 5650 6550 3    50   UnSpc ~ 0
 15
-Text HLabel 5400 6100 0    50   UnSpc ~ 0
+Text HLabel 5850 6550 3    50   UnSpc ~ 0
 13
-Text HLabel 5400 6000 0    50   UnSpc ~ 0
+Text HLabel 6050 6550 3    50   UnSpc ~ 0
 11
-Text HLabel 5400 5900 0    50   UnSpc ~ 0
+Text HLabel 6250 6550 3    50   UnSpc ~ 0
 09
-Text HLabel 5400 5800 0    50   UnSpc ~ 0
+Text HLabel 6150 5650 1    50   UnSpc ~ 0
 07
-Text HLabel 5400 5700 0    50   UnSpc ~ 0
+Text HLabel 5950 5650 1    50   UnSpc ~ 0
 05
-Text HLabel 5400 5600 0    50   UnSpc ~ 0
+Text HLabel 5750 5650 1    50   UnSpc ~ 0
 03
-Text HLabel 5400 5500 0    50   UnSpc ~ 0
+Text HLabel 5550 5650 1    50   UnSpc ~ 0
 01
-Text HLabel 6300 6200 2    50   UnSpc ~ 0
+Text HLabel 5550 6550 3    50   UnSpc ~ 0
 16
-Text HLabel 6300 6100 2    50   UnSpc ~ 0
+Text HLabel 5750 6550 3    50   UnSpc ~ 0
 14
-Text HLabel 6300 6000 2    50   UnSpc ~ 0
+Text HLabel 5950 6550 3    50   UnSpc ~ 0
 12
-Text HLabel 6300 5900 2    50   UnSpc ~ 0
+Text HLabel 6150 6550 3    50   UnSpc ~ 0
 10
-Text HLabel 6300 5800 2    50   UnSpc ~ 0
+Text HLabel 6250 5650 1    50   UnSpc ~ 0
 08
-Text HLabel 6300 5700 2    50   UnSpc ~ 0
+Text HLabel 6050 5650 1    50   UnSpc ~ 0
 06
-Text HLabel 6300 5600 2    50   UnSpc ~ 0
+Text HLabel 5850 5650 1    50   UnSpc ~ 0
 04
-Text HLabel 6300 5500 2    50   UnSpc ~ 0
+Text HLabel 5650 5650 1    50   UnSpc ~ 0
 02
 Wire Wire Line
-	5400 5500 5600 5500
+	6250 5650 6250 5850
 Wire Wire Line
-	5600 5600 5400 5600
+	6150 5850 6150 5650
 Wire Wire Line
-	5400 5700 5600 5700
+	6050 5650 6050 5850
 Wire Wire Line
-	5600 5800 5400 5800
+	5950 5850 5950 5650
 Wire Wire Line
-	5400 5900 5600 5900
+	5850 5650 5850 5850
 Wire Wire Line
-	5600 6000 5400 6000
+	5750 5850 5750 5650
 Wire Wire Line
-	5600 6300 5400 6300
+	5450 5850 5450 5650
 Wire Wire Line
-	6100 5500 6300 5500
+	6250 6350 6250 6550
 Wire Wire Line
-	6100 5600 6300 5600
+	6150 6350 6150 6550
 Wire Wire Line
-	6300 5700 6100 5700
+	6050 6550 6050 6350
 Wire Wire Line
-	6300 5800 6100 5800
+	5950 6550 5950 6350
 Wire Wire Line
-	6300 5900 6100 5900
+	5850 6550 5850 6350
 Wire Wire Line
-	6300 6000 6100 6000
+	5750 6550 5750 6350
 Wire Wire Line
-	6300 6100 6100 6100
+	5650 6550 5650 6350
 Wire Wire Line
-	6300 6200 6100 6200
+	5550 6550 5550 6350
 Text HLabel 9600 1900 2    50   UnSpc ~ 0
 16
 Wire Wire Line
-	5600 6100 5400 6100
+	5650 5850 5650 5650
 Wire Wire Line
-	5600 6200 5400 6200
+	5550 5850 5550 5650
 Wire Wire Line
-	6100 6300 6300 6300
+	5450 6350 5450 6550
 $Comp
 L LED:HDSP-4830_2 BAR1
 U 1 1 5D99BD45
@@ -566,22 +566,22 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J2
 U 1 1 5DAC3666
-P 5800 5900
-F 0 "J2" H 5850 6517 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 5850 6426 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 5800 5900 50  0001 C CNN
-F 3 "~" H 5800 5900 50  0001 C CNN
-	1    5800 5900
-	1    0    0    -1  
+P 5850 6050
+F 0 "J2" H 5900 6667 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 5900 6576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 5850 6050 50  0001 C CNN
+F 3 "~" H 5850 6050 50  0001 C CNN
+	1    5850 6050
+	0    1    1    0   
 $EndComp
-Text HLabel 6300 6400 2    50   UnSpc ~ 0
+Text HLabel 5350 6550 3    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	6300 6400 6100 6400
-Text HLabel 5400 6400 0    50   UnSpc ~ 0
+	5350 6550 5350 6350
+Text HLabel 5350 5650 1    50   UnSpc ~ 0
 12V
 Wire Wire Line
-	5600 6400 5400 6400
+	5350 5850 5350 5650
 Text HLabel 9050 850  2    50   UnSpc ~ 0
 12V
 Text HLabel 9050 3300 2    50   UnSpc ~ 0
