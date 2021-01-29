@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 17
+Sheet 3 19
 Title ""
 Date ""
 Rev ""
@@ -49,7 +49,7 @@ AR Path="/5D9FF064/5DB2271B/5D9EAB5B" Ref="D13"  Part="1"
 AR Path="/5D9FF064/5DB2283A/5D9EAB5B" Ref="D15"  Part="1" 
 AR Path="/5D9FF064/5DB228C9/5D9EAB5B" Ref="D16"  Part="1" 
 AR Path="/5D9FF064/5DB227AA/5D9EAB5B" Ref="D14"  Part="1" 
-F 0 "D15" V 2704 1879 50  0000 L CNN
+F 0 "D16" V 2704 1879 50  0000 L CNN
 F 1 "1N4148" V 2795 1879 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2750 1625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2750 1800 50  0001 C CNN
@@ -88,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 2000 3200 2200
 $Comp
-L Finder_43.41:FINDER-43.41 U7
+L relays-device-rescue:FINDER-43.41-Finder_43.41 U7
 U 1 1 603CF29B
 P 3500 1800
 AR Path="/5D9FF064/5D9EA18F/603CF29B" Ref="U7"  Part="1" 
@@ -123,9 +123,10 @@ AR Path="/5DB2264D/603CF29B" Ref="U17"  Part="1"
 AR Path="/5DB2271B/603CF29B" Ref="U18"  Part="1" 
 AR Path="/5DB2283A/603CF29B" Ref="U20"  Part="1" 
 AR Path="/5DB227AA/603CF29B" Ref="U19"  Part="1" 
-F 0 "U21" H 4076 1846 50  0000 L CNN
+AR Path="/603CF29B" Ref="U21"  Part="1" 
+F 0 "U19" H 4076 1846 50  0000 L CNN
 F 1 "FINDER-43.41" H 4076 1755 50  0000 L CNN
-F 2 "Finder:FINDER-43.41" H 3050 1700 50  0001 L BNN
+F 2 "Finder:finder-43.41" H 3050 1700 50  0001 L BNN
 F 3 "" H 3400 1800 50  0001 L BNN
 	1    3500 1800
 	1    0    0    -1  

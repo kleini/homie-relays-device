@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 17
+Sheet 3 19
 Title ""
 Date ""
 Rev ""
@@ -30,7 +30,7 @@ L Device:CP C1
 U 1 1 5DC098F1
 P 8100 1200
 F 0 "C1" H 8218 1246 50  0000 L CNN
-F 1 "100µF" H 8218 1155 50  0000 L CNN
+F 1 "220µF" H 8218 1155 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8138 1050 50  0001 C CNN
 F 3 "~" H 8100 1200 50  0001 C CNN
 	1    8100 1200
@@ -441,8 +441,8 @@ U 1 1 5DC1CA09
 P 7300 2850
 AR Path="/5D9B8E7D/5DC1CA09" Ref="J?"  Part="1" 
 AR Path="/5D9FF064/5DC1CA09" Ref="J3"  Part="1" 
-AR Path="/5DC1CA09" Ref="J9"  Part="1" 
-F 0 "J9" H 7350 3467 50  0000 C CNN
+AR Path="/5DC1CA09" Ref="J3"  Part="1" 
+F 0 "J3" H 7350 3467 50  0000 C CNN
 F 1 "Conn_02x10_Odd_Even" H 7350 3376 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 7300 2850 50  0001 C CNN
 F 3 "~" H 7300 2850 50  0001 C CNN
@@ -752,4 +752,72 @@ Wire Wire Line
 Connection ~ 5150 1000
 Wire Wire Line
 	5150 1000 5550 1000
+$Comp
+L Connector:Screw_Terminal_01x02 J8
+U 1 1 6014E5F9
+P 7650 4550
+F 0 "J8" H 7730 4542 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 7730 4451 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01602HBWC_1x02_P5.08mm_Horizontal" H 7650 4550 50  0001 C CNN
+F 3 "~" H 7650 4550 50  0001 C CNN
+	1    7650 4550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6150 4550
+NoConn ~ 6150 4650
+$Comp
+L Connector:Screw_Terminal_01x02 J9
+U 1 1 601E84EE
+P 7950 5250
+F 0 "J9" H 8030 5242 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8030 5151 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01602HBWC_1x02_P5.08mm_Horizontal" H 7950 5250 50  0001 C CNN
+F 3 "~" H 7950 5250 50  0001 C CNN
+	1    7950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Finder_45.31:45.31.7.024.0310 K2
+U 1 1 601E88F3
+P 6300 5250
+F 0 "K2" H 6950 5515 50  0000 C CNN
+F 1 "45.31.7.024.0310" H 6950 5424 50  0000 C CNN
+F 2 "Finder:finder-45.31.7.024.0310" H 7450 5350 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7495130" H 7450 5250 50  0001 L CNN
+F 4 "SP-NO PCB Mount Non-Latching Relay Tab, 24V dc" H 7450 5150 50  0001 L CNN "Description"
+F 5 "28.5" H 7450 5050 50  0001 L CNN "Height"
+F 6 "FINDER" H 7450 4950 50  0001 L CNN "Manufacturer_Name"
+F 7 "45.31.7.024.0310" H 7450 4850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 7450 4750 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 7450 4650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 7450 4550 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 7450 4450 50  0001 L CNN "Arrow Price/Stock"
+	1    6300 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 5350 7600 5350
+Wire Wire Line
+	7600 5250 7750 5250
+NoConn ~ 6300 5250
+NoConn ~ 6300 5350
+$Comp
+L Finder_45.31:45.31.7.024.0310 K1
+U 1 1 601A2ACE
+P 6150 4550
+F 0 "K1" H 6800 4815 50  0000 C CNN
+F 1 "45.31.7.024.0310" H 6800 4724 50  0000 C CNN
+F 2 "Finder:finder-45.31.7.024.0310" H 7300 4650 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7495130" H 7300 4550 50  0001 L CNN
+F 4 "SP-NO PCB Mount Non-Latching Relay Tab, 24V dc" H 7300 4450 50  0001 L CNN "Description"
+F 5 "28.5" H 7300 4350 50  0001 L CNN "Height"
+F 6 "FINDER" H 7300 4250 50  0001 L CNN "Manufacturer_Name"
+F 7 "45.31.7.024.0310" H 7300 4150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 7300 4050 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 7300 3950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 7300 3850 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 7300 3750 50  0001 L CNN "Arrow Price/Stock"
+	1    6150 4550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

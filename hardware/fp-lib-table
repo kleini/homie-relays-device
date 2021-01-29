@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name ESP8266)(type KiCad)(uri ${LOCAL_KICAD}/kicad-ESP8266/ESP8266.pretty)(options "")(descr ""))
-  (lib (name Finder)(type KiCad)(uri ${LOCAL_KICAD}/finder-43.41.7.012.2300/finder.pretty)(options "")(descr ""))
+  (lib (name Finder)(type KiCad)(uri ${LOCAL_KICAD}/finder/finder.pretty)(options "")(descr ""))
 )
