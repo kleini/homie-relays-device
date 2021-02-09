@@ -1,5 +1,5 @@
 #define FW_NAME "relays-device"
-#define FW_VERSION "0.0.9"
+#define FW_VERSION "0.0.11"
 
 #include "Homie.h"
 #include <Wire.h>
